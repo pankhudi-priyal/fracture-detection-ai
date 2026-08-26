@@ -20,3 +20,10 @@ An AI-powered X-ray fracture detection system with visual explainability, built 
 - Built a custom stratified train/valid/test split after discovering the dataset's official split only included fracture-positive images
 
 ## Project structure
+
+    backend/     — FastAPI app serving the trained model
+    frontend/    — Web interface (HTML/CSS/JS)
+    notebooks/   — Model training and evaluation (Colab)
+
+## Disclaimer
+This tool is for research purposes only and is not intended for clinical diagnosis.
